@@ -16,42 +16,42 @@ const trabalhosRealizados = [
   {
     id: 1,
     name: "Realinhamento Capilar Orgânica",
-    video: "src/assets/cabelo1.mp4",
+    video: "/src/assets/cabelo1.mp4",
   },
   {
     id: 2,
     name: "Realinhamento Capilar Orgânica",
-    video: "src/assets/Hitube_JtEhivBdiD_2024_12_03_18_24_27.mp4",
+    video: "/src/assets/Hitube_JtEhivBdiD_2024_12_03_18_24_27.mp4",
   },
   {
     id: 3,
     name: "Realinhamento Capilar Orgânica",
-    video: "src/assets/Hitube_mc7Ninu6qD_2024_12_03_18_21_33.mp4",
+    video: "/src/assets/Hitube_mc7Ninu6qD_2024_12_03_18_21_33.mp4",
   },
   {
     id: 4,
     name: "Realinhamento Capilar Orgânica",
-    video: "src/assets/video-progressiva.mp4",
+    video: "/src/assets/video-progressiva.mp4",
   },
   {
     id: 5,
     name: "Realinhamento Capilar Orgânica",
-    video: "src/assets/cabelo06.mp4",
+    video: "/src/assets/cabelo06.mp4",
   },
   {
     id: 6,
     name: "Botox Capilar Orgânica liss",
-    video: "src/assets/botox-video.mp4",
+    video: "/src/assets/botox-video.mp4",
   },
   {
     id: 7,
     name: "Realinhamento Capilar Orgânica",
-    video: "src/assets/Hitube_lpQzvuH0WL_2024_12_03_18_26_17.mp4",
+    video: "/src/assets/Hitube_lpQzvuH0WL_2024_12_03_18_26_17.mp4",
   },
   {
     id: 8,
     name: "Realinhamento Capilar Orgânica",
-    video: "src/assets/Hitube_fzHeY1nbPm_2024_12_03_18_27_10.mp4",
+    video: "/src/assets/Hitube_fzHeY1nbPm_2024_12_03_18_27_10.mp4",
   },
 ];
 
@@ -67,25 +67,25 @@ const Servicos = () => {
       <ContainerBanner>
         <div className="container-img">
           <img
-            src="src/assets/Story de instagram de salão de beleza elegante branco e marrom.png"
+            src="/src/assets/Story de instagram de salão de beleza elegante branco e marrom.png"
             alt="imagem"
           ></img>
         </div>
         <div className="container-img">
           <img
-            src="src/assets/Corte tratamento divulgação salão de beleza preço story do instagram.png"
+            src="/src/assets/Corte tratamento divulgação salão de beleza preço story do instagram.png"
             alt="imagem"
           ></img>
         </div>
         <div className="container-img">
           <img
-            src="src/assets/Story de instagram de salão de beleza moderno vermelho.png"
+            src="/src/assets/Story de instagram de salão de beleza moderno vermelho.png"
             alt="imagem"
           ></img>
         </div>
         <div className="container-img">
           <img
-            src="src/assets/Corte tratamento divulgação salão de beleza preço story do instagram (1).png"
+            src="/src/assets/Corte tratamento divulgação salão de beleza preço story do instagram (1).png"
             alt="imagem"
           ></img>
         </div>
@@ -99,7 +99,7 @@ const Servicos = () => {
           natural. Seja para um evento especial ou para o cotidiano, a
           progressiva oferece praticidade e sofisticação!
         </p>
-        <video src="src/assets/cabelo2.mp4" autoPlay muted loop></video>
+        <video src="/src/assets/cabelo2.mp4" autoPlay muted loop></video>
       </ContainerTrabalhos>
 
       <ContainerServicos>
@@ -120,12 +120,12 @@ const Servicos = () => {
           seus fios com técnicas e produtos de alta qualidade. Seu cabelo merece
           esse carinho! Agende seu tratamento e sinta a diferença!
         </p>
-        <video src="src/assets/tratamento-video.mp4" autoPlay muted loop></video>
+        <video src="/src/assets/tratamento-video.mp4" autoPlay muted loop></video>
       </ContainerTratamentos>
 
       <ContainerZap>
         <a href="https://api.whatsapp.com/message/GXPMSYFCO2KHN1?autoload=1&app_absent=0">
-          <img src="src/assets/whatsapp.png" alt="imagem whatsapp"></img>
+          <img src="/src/assets/whatsapp.png" alt="imagem whatsapp"></img>
         </a>
       </ContainerZap>
     </>
