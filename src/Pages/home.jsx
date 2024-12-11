@@ -179,7 +179,10 @@ const Home = () => {
       </MapsLocalizacao>
 
       <ContainerZap>
-        <a href="https://api.whatsapp.com/message/GXPMSYFCO2KHN1?autoload=1&app_absent=0">
+      <a
+    href="https://wa.me/5511952223961?text=Olá%2C%20gostaria%20de%20saber%20mais%20sobre%20seus%20serviços!"
+    target="_blank"
+    rel="noopener noreferrer">
           <img src={imgZap} alt="imagem whatsapp"></img>
         </a>
       </ContainerZap>
