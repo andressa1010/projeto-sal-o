@@ -13,48 +13,57 @@ import {
   LogoTipo,
   MapsLocalizacao,
 } from "../Styles/styled";
+import imageGrace from "../assets/imageGrace.png"
+import imageCabelo from "../assets/cabelo-liso.jpg"
+import imageCabelobotox from "../assets/cabelos-grace03.jpg"
+import imgProgressiva from "../assets/cabelos-grace.jpg"
+import imgProgressiva01 from "../assets/cabelos-grace02.jpg"
+import imgProgressiva02 from "../assets/cabelos-grace01.jpg"
+import imgGraceChapinha from "../assets/img-grace-chapinha.png"
+import imgZap from "../assets/whatsapp.png"
+import cabeloLisoDominante from "../assets/cabelo-liso-e-dominante-ou-recessivo.jpg"
 import logo from "../assets/Logo minimalista loja de produtos naturais creme (6) (1).png";
 
 const trabalhosRealizados = [
   {
     id: 1,
     name: "Realinhamento Capilar Orgânica",
-    video: "/src/assets/cabelo1.mp4",
+    video: "/cabelo1.mp4",
   },
   {
     id: 2,
     name: "Realinhamento Capilar Orgânica",
-    video: "/src/assets/cabelo2.mp4",
+    video: "/cabelo2.mp4",
   },
   {
     id: 3,
     name: "Realinhamento Capilar Orgânica",
-    video: "/src/assets/cabelo3.mp4",
+    video: "/cabelo3.mp4",
   },
   {
     id: 4,
     name: "Realinhamento Capilar Orgânica",
-    video: "/src/assets/cabelo4.mp4",
+    video: "/cabelo4.mp4",
   },
   {
     id: 5,
     name: "Realinhamento Capilar Orgânica",
-    video: "/src/assets/cabelo06.mp4",
+    video: "/cabelo06.mp4",
   },
   {
     id: 6,
     name: "Botox Capilar Orgânica liss",
-    video: "/src/assets/botox-video.mp4",
+    video: "/botox-video.mp4",
   },
   {
     id: 7,
     name: "Realinhamento Capilar Orgânica",
-    video: "/src/assets/Hitube_lpQzvuH0WL_2024_12_03_18_26_17.mp4",
+    video: "/Hitube_lpQzvuH0WL_2024_12_03_18_26_17.mp4",
   },
   {
     id: 8,
     name: "Realinhamento Capilar Orgânica",
-    video: "/src/assets/Hitube_fzHeY1nbPm_2024_12_03_18_27_10.mp4",
+    video: "/Hitube_fzHeY1nbPm_2024_12_03_18_27_10.mp4",
   },
 ];
 
@@ -75,13 +84,12 @@ const Home = () => {
           clientes.
         </p>
         <img
-          src="/src/assets/Photoroom-20241115_164642.png"
-          alt="imagem grace"
-        ></img>
+          src={imageGrace}
+          alt="imagem grace"/>
       </ContainerDiv>
 
       <ContainerConteudo>
-        <img src="/src/assets/cabelo-liso.jpg" alt="imagem cabelo"></img>
+        <img src={imageCabelo} alt="imagem cabelo" />
         <p>
           Cuidar dos seus cabelos é mais que estética, é autoestima! Descubra
           nossos tratamentos exclusivos de progressivas, hidratações e cuidados
@@ -100,19 +108,19 @@ const Home = () => {
       <DivFotos>
         <div className="div-fotos">
           <h2>Botox</h2>
-          <img src="/src/assets/cabelos-grace03.jpg" alt="imagem cabelo"></img>
+          <img src={imageCabelobotox} alt="imagem cabelo" />
         </div>
         <div className="div-fotos">
           <h2>Progressiva</h2>
-          <img src="/src/assets/cabelos-grace.jpg" alt="imagem cabelo"></img>
+          <img src={imgProgressiva} alt="imagem cabelo"/>
         </div>
         <div className="div-fotos">
           <h2>Progressiva</h2>
-          <img src="/src/assets/cabelos-grace01.jpg" alt="imagem cabelo"></img>
+          <img src={imgProgressiva01} alt="imagem cabelo" />
         </div>
         <div className="div-fotos">
           <h2>Progressiva</h2>
-          <img src="/src/assets/cabelos-grace02.jpg" alt="imagem cabelo"></img>
+          <img src={imgProgressiva02} alt="imagem cabelo" />
         </div>
       </DivFotos>
 
@@ -124,9 +132,8 @@ const Home = () => {
           momento de beleza e bem-estar.
         </p>
         <img
-          src="/src/assets/cabelo-liso-e-dominante-ou-recessivo.jpg"
-          alt="imagem"
-        ></img>
+          src={cabeloLisoDominante}
+          alt="imagem"/>
       </ContainerDescricao>
 
       <ContainerServicos>
@@ -148,9 +155,8 @@ const Home = () => {
           Agende já e experimente o cuidado que o seu cabelo merece!
         </p>
         <img
-          src="/src/assets/Photoroom-20241115_164629.png"
-          alt="imagem grace"
-        ></img>
+          src={imgGraceChapinha}
+          alt="imagem grace"/>
       </ContainerMotivos>
 
       <DivTitulo>
@@ -174,7 +180,7 @@ const Home = () => {
 
       <ContainerZap>
         <a href="https://api.whatsapp.com/message/GXPMSYFCO2KHN1?autoload=1&app_absent=0">
-          <img src="/src/assets/whatsapp.png" alt="imagem whatsapp"></img>
+          <img src={imgZap} alt="imagem whatsapp"></img>
         </a>
       </ContainerZap>
     </>
