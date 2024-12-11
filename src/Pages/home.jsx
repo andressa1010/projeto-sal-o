@@ -52,7 +52,7 @@ const trabalhosRealizados = [
   },
   {
     id: 6,
-    name: "Botox Capilar Orgânica liss",
+    name: "Realinhamento Capilar Orgânica",
     video: "/botox-video.mp4",
   },
   {
