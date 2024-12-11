@@ -12,6 +12,7 @@ import {
 import bannerUm from "../assets/Story de instagram de salão de beleza elegante branco e marrom.png"
 import imgZap from "../assets/whatsapp.png"
 import videoCabelo from "../assets/cabelo2.mp4"
+import videoTratamento from"../assets/tratamento-video.mp4"
 import bannerQuatro from "../assets/Corte tratamento divulgação salão de beleza preço story do instagram (1).png"
 import bannerTres from "../assets/Corte tratamento divulgação salão de beleza preço story do instagram.png"
 import bannerDois from "../assets/Story de instagram de salão de beleza moderno vermelho.png"
@@ -125,7 +126,7 @@ const Servicos = () => {
           seus fios com técnicas e produtos de alta qualidade. Seu cabelo merece
           esse carinho! Agende seu tratamento e sinta a diferença!
         </p>
-        <video src="/src/assets/tratamento-video.mp4" autoPlay muted loop></video>
+        <video src={videoTratamento} autoPlay muted loop></video>
       </ContainerTratamentos>
 
       <ContainerZap>
