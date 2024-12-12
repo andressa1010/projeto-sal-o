@@ -206,6 +206,13 @@ export const ContainerServicos = styled.div`
     border-radius: 40px;
   }
 
+  video {
+  user-select: none; /* Evita que seja selecionado */
+  -webkit-user-drag: none; /* Evita arrastar o vídeo */
+  -webkit-tap-highlight-color: transparent; /* Remove destaque ao tocar */
+  touch-action: manipulation; /* Evita zoom ou gestos não intencionais */
+}
+
   @media (max-width: 500px) {
     display: flex;
     justify-content: center;
@@ -276,6 +283,13 @@ export const ContainerTrabalhos = styled.div`
     border-radius: 40px;
   }
 
+  video {
+  user-select: none; /* Evita que seja selecionado */
+  -webkit-user-drag: none; /* Evita arrastar o vídeo */
+  -webkit-tap-highlight-color: transparent; /* Remove destaque ao tocar */
+  touch-action: manipulation; /* Evita zoom ou gestos não intencionais */
+}
+
   @media (max-width: 500px) {
     p {
       font-size: 20px;
@@ -327,6 +341,13 @@ export const ContainerTratamentos = styled.div`
     width: 300px;
     border-radius: 40px;
   }
+
+  video {
+  user-select: none; /* Evita que seja selecionado */
+  -webkit-user-drag: none; /* Evita arrastar o vídeo */
+  -webkit-tap-highlight-color: transparent; /* Remove destaque ao tocar */
+  touch-action: manipulation; /* Evita zoom ou gestos não intencionais */
+}
 
   @media (max-width: 500px) {
     p {

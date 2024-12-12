@@ -140,7 +140,7 @@ const Home = () => {
         {trabalhosRealizados.map((produtos) => (
           <div key={produtos.id} className="produto">
             <h2> {produtos.name} </h2>
-            <video src={produtos.video} autoPlay muted loop></video>
+            <video src={produtos.video} autoPlay muted loop playsinline></video>
           </div>
         ))}
       </ContainerServicos>

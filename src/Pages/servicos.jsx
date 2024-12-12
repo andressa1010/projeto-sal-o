@@ -105,14 +105,14 @@ const Servicos = () => {
           natural. Seja para um evento especial ou para o cotidiano, a
           progressiva oferece praticidade e sofisticação!
         </p>
-        <video src={videoCabelo} autoPlay muted loop></video>
+        <video src={videoCabelo} autoPlay muted loop playsinline></video>
       </ContainerTrabalhos>
 
       <ContainerServicos>
         {trabalhosRealizados.map((produtos) => (
           <div key={produtos.id} className="produto">
             <h2> {produtos.name} </h2>
-            <video src={produtos.video} autoPlay muted loop></video>
+            <video src={produtos.video} autoPlay muted loop playsinline></video>
           </div>
         ))}
       </ContainerServicos>
@@ -126,7 +126,7 @@ const Servicos = () => {
           seus fios com técnicas e produtos de alta qualidade. Seu cabelo merece
           esse carinho! Agende seu tratamento e sinta a diferença!
         </p>
-        <video src={videoTratamento} autoPlay muted loop></video>
+        <video src={videoTratamento} autoPlay muted loop playsinline></video>
       </ContainerTratamentos>
 
       <ContainerZap>
