@@ -9,15 +9,14 @@ import {
   DivLogo,
   LogoTipo,
 } from "../Styles/styled";
-import bannerUm from "../assets/Story de instagram de salão de beleza elegante branco e marrom.png"
-import imgZap from "../assets/whatsapp.png"
-import videoCabelo from "../assets/cabelo2.mp4"
-import videoTratamento from"../assets/tratamento-video.mp4"
-import bannerQuatro from "../assets/Corte tratamento divulgação salão de beleza preço story do instagram (1).png"
-import bannerTres from "../assets/Corte tratamento divulgação salão de beleza preço story do instagram.png"
-import bannerDois from "../assets/Story de instagram de salão de beleza moderno vermelho.png"
+import bannerUm from "../assets/Story de instagram de salão de beleza elegante branco e marrom.png";
+import imgZap from "../assets/whatsapp.png";
+import videoCabelo from "../assets/cabelo2.mp4";
+import videoTratamento from "../assets/tratamento-video.mp4";
+import bannerQuatro from "../assets/Corte tratamento divulgação salão de beleza preço story do instagram (1).png";
+import bannerTres from "../assets/Corte tratamento divulgação salão de beleza preço story do instagram.png";
+import bannerDois from "../assets/Story de instagram de salão de beleza moderno vermelho.png";
 import logo from "../assets/Logo minimalista loja de produtos naturais creme (6) (1).png";
-
 
 const trabalhosRealizados = [
   {
@@ -73,27 +72,16 @@ const Servicos = () => {
 
       <ContainerBanner>
         <div className="container-img">
-          <img
-            src={bannerUm}
-            alt="imagem"/>
+          <img src={bannerUm} alt="imagem" />
         </div>
         <div className="container-img">
-          <img
-            src={bannerTres}
-            alt="imagem"
-          ></img>
+          <img src={bannerTres} alt="imagem"></img>
         </div>
         <div className="container-img">
-          <img
-            src={bannerDois}
-            alt="imagem"
-          ></img>
+          <img src={bannerDois} alt="imagem"></img>
         </div>
         <div className="container-img">
-          <img
-            src={bannerQuatro}
-            alt="imagem"
-          ></img>
+          <img src={bannerQuatro} alt="imagem"></img>
         </div>
       </ContainerBanner>
 

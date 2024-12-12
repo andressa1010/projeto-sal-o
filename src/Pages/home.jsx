@@ -1,11 +1,10 @@
-
 import Menu from "../components/menu";
 import {
   ContainerConteudo,
   ContainerDescricao,
   ContainerDiv,
   ContainerMotivos,
-  ContainerServicos, 
+  ContainerServicos,
   ContainerZap,
   DivFotos,
   DivLogo,
@@ -13,15 +12,15 @@ import {
   LogoTipo,
   MapsLocalizacao,
 } from "../Styles/styled";
-import imageGrace from "../assets/imageGrace.png"
-import imageCabelo from "../assets/cabelo-liso.jpg"
-import imageCabelobotox from "../assets/cabelos-grace03.jpg"
-import imgProgressiva from "../assets/cabelos-grace.jpg"
-import imgProgressiva01 from "../assets/cabelos-grace02.jpg"
-import imgProgressiva02 from "../assets/cabelos-grace01.jpg"
-import imgGraceChapinha from "../assets/img-grace-chapinha.png"
-import imgZap from "../assets/whatsapp.png"
-import cabeloLisoDominante from "../assets/cabelo-liso-e-dominante-ou-recessivo.jpg"
+import imageGrace from "../assets/imageGrace.png";
+import imageCabelo from "../assets/cabelo-liso.jpg";
+import imageCabelobotox from "../assets/cabelos-grace03.jpg";
+import imgProgressiva from "../assets/cabelos-grace.jpg";
+import imgProgressiva01 from "../assets/cabelos-grace02.jpg";
+import imgProgressiva02 from "../assets/cabelos-grace01.jpg";
+import imgGraceChapinha from "../assets/img-grace-chapinha.png";
+import imgZap from "../assets/whatsapp.png";
+import cabeloLisoDominante from "../assets/cabelo-liso-e-dominante-ou-recessivo.jpg";
 import logo from "../assets/Logo minimalista loja de produtos naturais creme (6) (1).png";
 
 const trabalhosRealizados = [
@@ -68,9 +67,6 @@ const trabalhosRealizados = [
 ];
 
 const Home = () => {
-
-
-
   return (
     <>
       <Menu />
@@ -86,9 +82,7 @@ const Home = () => {
           maior qualidade do mercado para garantir a satisfação de nossas
           clientes.
         </p>
-        <img
-          src={imageGrace}
-          alt="imagem grace"/>
+        <img src={imageGrace} alt="imagem grace" />
       </ContainerDiv>
 
       <ContainerConteudo>
@@ -115,7 +109,7 @@ const Home = () => {
         </div>
         <div className="div-fotos">
           <h2>Progressiva</h2>
-          <img src={imgProgressiva} alt="imagem cabelo"/>
+          <img src={imgProgressiva} alt="imagem cabelo" />
         </div>
         <div className="div-fotos">
           <h2>Progressiva</h2>
@@ -134,9 +128,7 @@ const Home = () => {
           relaxante do que deixar as suas preocupações de lado e se permitir um
           momento de beleza e bem-estar.
         </p>
-        <img
-          src={cabeloLisoDominante}
-          alt="imagem"/>
+        <img src={cabeloLisoDominante} alt="imagem" />
       </ContainerDescricao>
 
       <ContainerServicos>
@@ -157,9 +149,7 @@ const Home = () => {
           Resultados incríveis: Cabelos saudáveis, alinhados e cheios de brilho!
           Agende já e experimente o cuidado que o seu cabelo merece!
         </p>
-        <img
-          src={imgGraceChapinha}
-          alt="imagem grace"/>
+        <img src={imgGraceChapinha} alt="imagem grace" />
       </ContainerMotivos>
 
       <DivTitulo>
@@ -182,10 +172,11 @@ const Home = () => {
       </MapsLocalizacao>
 
       <ContainerZap>
-      <a
-    href="https://wa.me/5511952223961?text=Olá%2C%20gostaria%20de%20saber%20mais%20sobre%20seus%20serviços!"
-    target="_blank"
-    rel="noopener noreferrer">
+        <a
+          href="https://wa.me/5511952223961?text=Olá%2C%20gostaria%20de%20saber%20mais%20sobre%20seus%20serviços!"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img src={imgZap} alt="imagem whatsapp"></img>
         </a>
       </ContainerZap>
