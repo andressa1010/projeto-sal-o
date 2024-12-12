@@ -204,14 +204,12 @@ export const ContainerServicos = styled.div`
     max-width: 100%;
     height: auto;
     border-radius: 40px;
+    object-fit: cover; /* Garante que o vídeo preencha o espaço corretamente */
+    user-select: none; /* Impede seleção do vídeo */
+    -webkit-user-drag: none; /* Impede arrastar o vídeo */
+    -webkit-tap-highlight-color: transparent; /* Remove o destaque ao tocar */
+    touch-action: manipulation; /* Evita zoom ou interações inesperadas */
   }
-
-  video {
-  user-select: none; /* Evita que seja selecionado */
-  -webkit-user-drag: none; /* Evita arrastar o vídeo */
-  -webkit-tap-highlight-color: transparent; /* Remove destaque ao tocar */
-  touch-action: manipulation; /* Evita zoom ou gestos não intencionais */
-}
 
   @media (max-width: 500px) {
     display: flex;
@@ -227,6 +225,13 @@ export const ContainerServicos = styled.div`
       text-align: center;
       box-sizing: border-box;
     }
+    video{
+      object-fit: cover; /* Garante que o vídeo preencha o espaço corretamente */
+    user-select: none; /* Impede seleção do vídeo */
+    -webkit-user-drag: none; /* Impede arrastar o vídeo */
+    -webkit-tap-highlight-color: transparent; /* Remove o destaque ao tocar */
+    touch-action: manipulation; /* Evita zoom ou interações inesperadas */
+    }
   }
 `;
 
@@ -236,7 +241,7 @@ export const ContainerBanner = styled.div`
   flex-wrap: wrap;
   padding: 10px;
 
-  .container-img{
+  .container-img {
     margin: 10px;
     padding: 10px;
     width: 300px;
@@ -250,19 +255,19 @@ export const ContainerBanner = styled.div`
   }
 
   @media (max-width: 500px) {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 
-      .container-img{
-        margin: 10px;
+    .container-img {
+      margin: 10px;
       padding: 10px;
       width: calc(
         50% - 20px
       ); /* Ajusta para 50% do espaço disponível, com margem */
       text-align: center;
       box-sizing: border-box;
-      }
+    }
   }
 `;
 
@@ -281,14 +286,14 @@ export const ContainerTrabalhos = styled.div`
   video {
     width: 300px;
     border-radius: 40px;
+    object-fit: cover; /* Garante que o vídeo preencha o espaço corretamente */
+    user-select: none; /* Impede seleção do vídeo */
+    -webkit-user-drag: none; /* Impede arrastar o vídeo */
+    -webkit-tap-highlight-color: transparent; /* Remove o destaque ao tocar */
+    touch-action: manipulation; /* Evita zoom ou interações inesperadas */
   }
 
-  video {
-  user-select: none; /* Evita que seja selecionado */
-  -webkit-user-drag: none; /* Evita arrastar o vídeo */
-  -webkit-tap-highlight-color: transparent; /* Remove destaque ao tocar */
-  touch-action: manipulation; /* Evita zoom ou gestos não intencionais */
-}
+  
 
   @media (max-width: 500px) {
     p {
@@ -296,6 +301,11 @@ export const ContainerTrabalhos = styled.div`
     }
     video {
       width: 200px;
+      object-fit: cover; /* Garante que o vídeo preencha o espaço corretamente */
+    user-select: none; /* Impede seleção do vídeo */
+    -webkit-user-drag: none; /* Impede arrastar o vídeo */
+    -webkit-tap-highlight-color: transparent; /* Remove o destaque ao tocar */
+    touch-action: manipulation; /* Evita zoom ou interações inesperadas */
     }
   }
 `;
@@ -340,14 +350,14 @@ export const ContainerTratamentos = styled.div`
   video {
     width: 300px;
     border-radius: 40px;
+    object-fit: cover; /* Garante que o vídeo preencha o espaço corretamente */
+    user-select: none; /* Impede seleção do vídeo */
+    -webkit-user-drag: none; /* Impede arrastar o vídeo */
+    -webkit-tap-highlight-color: transparent; /* Remove o destaque ao tocar */
+    touch-action: manipulation; /* Evita zoom ou interações inesperadas */
   }
 
-  video {
-  user-select: none; /* Evita que seja selecionado */
-  -webkit-user-drag: none; /* Evita arrastar o vídeo */
-  -webkit-tap-highlight-color: transparent; /* Remove destaque ao tocar */
-  touch-action: manipulation; /* Evita zoom ou gestos não intencionais */
-}
+
 
   @media (max-width: 500px) {
     p {
@@ -355,6 +365,12 @@ export const ContainerTratamentos = styled.div`
     }
     video {
       width: 200px;
+      object-fit: cover; /* Garante que o vídeo preencha o espaço corretamente */
+    user-select: none; /* Impede seleção do vídeo */
+    -webkit-user-drag: none; /* Impede arrastar o vídeo */
+    -webkit-tap-highlight-color: transparent; /* Remove o destaque ao tocar */
+    touch-action: manipulation; /* Evita zoom ou interações inesperadas */
+
     }
   }
 `;

@@ -11,6 +11,8 @@ export const GlobalStyled = createGlobalStyle`
 body{
     background: -webkit-linear-gradient(90deg, #291d53,#4d1740,#5a1e2d);
 background: linear-gradient(90deg, #291d53,#4d1740,#5a1e2d);
+touch-action: manipulation; /* Evita zoom em gestos */
 }
+
 
 `
