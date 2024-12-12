@@ -1,4 +1,4 @@
-import React from "react";
+
 import Menu from "../components/menu";
 import {
   ContainerConteudo,
@@ -68,6 +68,9 @@ const trabalhosRealizados = [
 ];
 
 const Home = () => {
+
+
+
   return (
     <>
       <Menu />
@@ -101,7 +104,7 @@ const Home = () => {
       <DivTitulo>
         <h2>
           Embarque em uma jornada de transformação onde cada detalhe revela um
-          novo capítulo do seu brilho único.{" "}
+          novo capítulo do seu brilho único.
         </h2>
       </DivTitulo>
 
@@ -140,7 +143,7 @@ const Home = () => {
         {trabalhosRealizados.map((produtos) => (
           <div key={produtos.id} className="produto">
             <h2> {produtos.name} </h2>
-            <video src={produtos.video} autoPlay muted loop playsinline></video>
+            <video src={produtos.video} autoPlay muted loop playsInline></video>
           </div>
         ))}
       </ContainerServicos>
